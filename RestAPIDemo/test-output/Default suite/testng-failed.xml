@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.infy.updateEmployeeRecord">
+        <methods>
+          <include name="updateEmployee"/>
+        </methods>
+      </class> <!-- com.infy.updateEmployeeRecord -->
+      <class name="com.infy.statusesUpdate">
+        <methods>
+          <include name="update"/>
+        </methods>
+      </class> <!-- com.infy.statusesUpdate -->
+      <class name="com.infy.deleteEmployeeRecord">
+        <methods>
+          <include name="deleteEmployee"/>
+        </methods>
+      </class> <!-- com.infy.deleteEmployeeRecord -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
